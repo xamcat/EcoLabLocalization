@@ -39,9 +39,6 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
-		<!-- <SignAssembly>True</SignAssembly> -->
-		<!-- <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile> -->
-		<!-- <AndroidSigningKeyStore>EcolabTCO.keystore</AndroidSigningKeyStore> -->
 		<NeutralLanguage>en-US</NeutralLanguage>
 	</PropertyGroup>
 
@@ -52,13 +49,9 @@
 		<EnableLLVM>True</EnableLLVM>
 		<Optimize>true</Optimize>
 		<AotAssemblies>False</AotAssemblies>
-		<!-- <AndroidKeyStore>True</AndroidKeyStore>
-		<AndroidSigningStorePass>Ecolab@123</AndroidSigningStorePass> -->
 		<PublishTrimmed>true</PublishTrimmed>
 		<AndroidUseAapt2>True</AndroidUseAapt2>
 		<AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
-		<!-- <AndroidSigningKeyAlias>EcolabTCO</AndroidSigningKeyAlias>
-		<AndroidSigningKeyPass>Ecolab@123</AndroidSigningKeyPass> -->
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android|x64'">
 		<AndroidPackageFormat>aab</AndroidPackageFormat>
@@ -66,14 +59,10 @@
 		<DebugSymbols>True</DebugSymbols>
 		<EnableLLVM>True</EnableLLVM>
 		<Optimize>true</Optimize>
-		<!-- <AndroidKeyStore>True</AndroidKeyStore>
-		<AndroidSigningStorePass>Ecolab@123</AndroidSigningStorePass> -->
 		<PublishTrimmed>true</PublishTrimmed>
 		<AotAssemblies>False</AotAssemblies>
 		<AndroidUseAapt2>True</AndroidUseAapt2>
 		<AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
-		<!-- <AndroidSigningKeyAlias>EcolabTCO</AndroidSigningKeyAlias>
-		<AndroidSigningKeyPass>Ecolab@123</AndroidSigningKeyPass> -->
 	</PropertyGroup>
 
 	<ItemGroup>
