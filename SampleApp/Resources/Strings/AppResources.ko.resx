@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account" xml:space="preserve">
+    <value>계정</value>
+  </data>
+  <data name="AccountDoesNotExistinCRM" xml:space="preserve">
+    <value>계정이 CRM 존재하지 않습니다, CRM 계정을 추가하기 위해 EGIC와 티켓을 생성하십시오.</value>
+  </data>
+  <data name="AccountInfo" xml:space="preserve">
+    <value>계정</value>
+  </data>
+  <data name="AccountNotExists" xml:space="preserve">
+    <value>{project} 계정이 CRM 존재하지 않기 때문에 CRM 밀어 수 없습니다. CRM 설정을 확인하십시오.</value>
+  </data>
+  <data name="AccountText" xml:space="preserve">
+    <value>계정</value>
+  </data>
+  <data name="AirQuality" xml:space="preserve">
+    <value>공기 청정도/</value>
+  </data>
+  <data name="Alert" xml:space="preserve">
+    <value>경고</value>
+  </data>
+  <data name="AllPrograms" xml:space="preserve">
+    <value>모든 프로젝트</value>
+  </data>
+  <data name="AmmoniaCalIntro" xml:space="preserve">
+    <value>이 tco 가치 문서화 도구의 목적은 암모니아 콘덴서의 규모를 줄이는 결과로 잠재적인 저축을 계산 하는 것입니다. 암모니아 킬로미터에 대 한 자세한 내용은-pac 3 응용 프로그램 및 모범 사례 가이드-섹션 3.8-냉장 시스템, 페이지 303-304. 콘덴서는 증발 기에서 흡수 된 열을 제거 하 고 압축기에서 증가 해, 따라서 액체 국가에 암모니아를 다시 돌려보내는. 문제는 튜브의 외부에 스케일 구축 업이 있을 때 발생 합니다, 열 전달 억제</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>및</value>
+  </data>
+  <data name="AndroidScanText" xml:space="preserve">
+    <value>Android 앱 스캔</value>
+  </data>
+  <data name="AnnualSavingsTypeLabel" xml:space="preserve">
+    <value>연간 절감 유형</value>
+  </data>
+  <data name="ApplyText" xml:space="preserve">
+    <value>적용</value>
+  </data>
+  <data name="ArchiveConfirmation" xml:space="preserve">
+    <value>이 프로젝트를 보관하면 TVD 계산기 응용 프로그램에서 프로젝트가 제거되지만 CRM 영향을 미치지 않습니다.  EGIC에 연락하여 프로젝트를 복원하십시오.</value>
+  </data>
+  <data name="ArchiveProgram" xml:space="preserve">
+    <value>아카이브 프로젝트</value>
+  </data>
+  <data name="ArchiveProject" xml:space="preserve">
+    <value>아카이브 프로젝트</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>정말 진행하시겠습니까?</value>
+  </data>
+  <data name="Asset" xml:space="preserve">
+    <value>자산</value>
+  </data>
+  <data name="AssetCapacity" xml:space="preserve">
+    <value>용량 - 자산 보호</value>
+  </data>
+  <data name="AssetLife" xml:space="preserve">
+    <value>자산 수명</value>
+  </data>
+  <data name="AssetText" xml:space="preserve">
+    <value>자산</value>
+  </data>
+  <data name="AverageStandards" xml:space="preserve">
+    <value>또는 평균 및 표준을 사용하십시오.</value>
+  </data>
+  <data name="BackGroundSyncInProgress" xml:space="preserve">
+    <value>백그라운드 동기화가 진행 중입니다. 잠시 후 다시 시도하십시오.</value>
+  </data>
+  <data name="BackText" xml:space="preserve">
+    <value> 뒤로</value>
+  </data>
+  <data name="Between" xml:space="preserve">
+    <value>가치는 그 사이여야 합니다.</value>
+  </data>
+  <data name="CalculationErrMsg" xml:space="preserve">
+    <value>계산시 오류가 발생했습니다. 다른 값을 사용해 보십시오.</value>
+  </data>
+  <data name="CalculatorType" xml:space="preserve">
+    <value>계산기</value>
+  </data>
+  <data name="CalculatorType1" xml:space="preserve">
+    <value>계산기</value>
+  </data>
+  <data name="CalculatorTypeText" xml:space="preserve">
+    <value>계산기</value>
+  </data>
+  <data name="CalenderText" xml:space="preserve">
+    <value>달력</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="ChangesAndSavings" xml:space="preserve">
+    <value>변경 및 절감</value>
+  </data>
+  <data name="ClearAllText" xml:space="preserve">
+    <value>모두 지우기</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>닫기</value>
+  </data>
+  <data name="CloseApplication" xml:space="preserve">
+    <value>응용 프로그램을 닫습니다</value>
+  </data>
+  <data name="CmvCrmProjectLinkOpen" xml:space="preserve">
+    <value>CRM 프로젝트 열기</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CmvCurrentProjectState" xml:space="preserve">
+    <value>현재 CRM 프로젝트 상태</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CmvErrorMsgConnection" xml:space="preserve">
+    <value>CRM과 상호 작용하는 동안 오류가 발생했습니다. 나중에 다시 시도하십시오.</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CmvInfo" xml:space="preserve">
+    <value>프로그램 정보 CRM</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CMVInfomationText" xml:space="preserve">
+    <value>이 프로젝트는 CRM(또는) 이 프로젝트가 CRM 삭제되었습니다(또는) 이 시나리오에 대해 일부 변경 사항이 있습니다.</value>
+  </data>
+  <data name="CmvLastPublishedDate" xml:space="preserve">
+    <value>마지막 게시일</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CMVProjectInformationText" xml:space="preserve">
+    <value>프로젝트 정보 CRM</value>
+  </data>
+  <data name="CmvProjectName" xml:space="preserve">
+    <value>CRM 프로젝트 이름</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CmvPushFailure" xml:space="preserve">
+    <value>'{project}'프로젝트는 CRM 추진될 수 없습니다.</value>
+  </data>
+  <data name="CmvPushSuccess" xml:space="preserve">
+    <value>'{project}' 프로젝트는 성공적으로 CRM 추진하고있다.</value>
+  </data>
+  <data name="CompareStatesTabName" xml:space="preserve">
+    <value>상태 비교</value>
+  </data>
+  <data name="CoolingCalIntro" xml:space="preserve">
+    <value>이 TCO 값 문서 도구의 목적은 타워 주기 증가 결과로 물 절감 계산 하입니다. 추천을 하기 전에 최적화 프로그램에서 시나리오를 검토 확인 하시기 바랍니다.</value>
+  </data>
+  <data name="Costs" xml:space="preserve">
+    <value>비용</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>생성</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>작성자 :</value>
+  </data>
+  <data name="CreateNewProjectPage" xml:space="preserve">
+    <value>새 프로젝트 생성</value>
+  </data>
+  <data name="CreatingProject" xml:space="preserve">
+    <value>프로젝트 생성...</value>
+  </data>
+  <data name="CreatingProjectText" xml:space="preserve">
+    <value>프로젝트 생성...</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>생성 날짜</value>
+  </data>
+  <data name="CreationDateEmpty" xml:space="preserve">
+    <value>만든 날짜 빈 수 없습니다</value>
+  </data>
+  <data name="CreationDateText" xml:space="preserve">
+    <value>생성 날짜</value>
+  </data>
+  <data name="CRMAccountNotExist" xml:space="preserve">
+    <value>'{project}'CRM 계정이 없기 때문에 CRM 밀어 낼 수 없으며, EGIC와 함께 티켓을 만들어 CRM 계정을 추가하십시오.</value>
+  </data>
+  <data name="CRMErrorMessage" xml:space="preserve">
+    <value>'{project}'CRM 워크북이 CRM 계정에 없기 때문에 CRM 밀어붙일 수 없습니다. CRM 설정을 확인하십시오.</value>
+  </data>
+  <data name="CrmUserDoesNotExist" xml:space="preserve">
+    <value>{project} CRM 인가가 불충분하여 CRM 밀려나지 못함. CRM 설정을 확인하십시오.</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>통화</value>
+  </data>
+  <data name="CurrencyInfo" xml:space="preserve">
+    <value>통화</value>
+  </data>
+  <data name="CurrencyText" xml:space="preserve">
+    <value>통화</value>
+  </data>
+  <data name="CurrencyValidation" xml:space="preserve">
+    <value>통화는 비어 있을 수 없습니다</value>
+  </data>
+  <data name="CurrentState" xml:space="preserve">
+    <value>현재 상태</value>
+  </data>
+  <data name="DeepLinkNoAccountAccess" xml:space="preserve">
+    <value>선택한 계정에 액세스할 수 없습니다. 자산 수확기와 관련된 사이트를 즐겨찾십시오.</value>
+  </data>
+  <data name="DeepLinkNoSiteAccess" xml:space="preserve">
+    <value>선택한 사이트에 액세스할 수 없습니다. 자산 수확기의 사이트를 즐겨찾아 액세스하십시오.</value>
+  </data>
+  <data name="DiscardText" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="DisplayIn" xml:space="preserve">
+    <value>디스플레이:</value>
+  </data>
+  <data name="DollarSaveBreakdownByCategory" xml:space="preserve">
+    <value>범주별로 고장이 절감된 달러</value>
+  </data>
+  <data name="DoNotShow" xml:space="preserve">
+    <value>이 메시지를 다시 표시하지 마십시오.</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>초안</value>
+  </data>
+  <data name="EditButton" xml:space="preserve">
+    <value>편집</value>
+  </data>
+  <data name="EditProjectInfoText" xml:space="preserve">
+    <value>프로젝트 정보 편집</value>
+  </data>
+  <data name="EditProjectPage" xml:space="preserve">
+    <value>프로젝트 수정</value>
+  </data>
+  <data name="ElectricalEnergy" xml:space="preserve">
+    <value>전기 에너지</value>
+  </data>
+  <data name="Emission" xml:space="preserve">
+    <value>방출</value>
+  </data>
+  <data name="Energy" xml:space="preserve">
+    <value>에너지</value>
+  </data>
+  <data name="EnergyElectrical" xml:space="preserve">
+    <value>에너지 - 전기</value>
+  </data>
+  <data name="EnergyGreenhouse" xml:space="preserve">
+    <value>에너지 - 온실 가스</value>
+  </data>
+  <data name="EnergyTabName" xml:space="preserve">
+    <value>에너지</value>
+  </data>
+  <data name="EnergyThermal" xml:space="preserve">
+    <value>에너지 - 열</value>
+  </data>
+  <data name="Error_Calculation" xml:space="preserve">
+    <value>계산시 오류가 발생했습니다. 다른 값을 입력하십시오.</value>
+  </data>
+  <data name="ExchangeRate" xml:space="preserve">
+    <value>* 환율 (출시 예정)</value>
+  </data>
+  <data name="FeatureComingSoon" xml:space="preserve">
+    <value>기능은 곧 발표 될 예정이다</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>보고서 생성</value>
+  </data>
+  <data name="GreaterOrEqual" xml:space="preserve">
+    <value>가치는 다음보다 크거나 같아야 합니다.</value>
+  </data>
+  <data name="HistoricalData" xml:space="preserve">
+    <value>과거 데이터</value>
+  </data>
+  <data name="HowToDetermine" xml:space="preserve">
+    <value>판단 방법 {0}</value>
+  </data>
+  <data name="ImageExtentionAlertMsg" xml:space="preserve">
+    <value>연장 .jpg/.jpeg/.png만 있는 이미지를 업로드하십시오.</value>
+  </data>
+  <data name="Improved" xml:space="preserve">
+    <value>향상</value>
+  </data>
+  <data name="Increased" xml:space="preserve">
+    <value>증가</value>
+  </data>
+  <data name="InfoText" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>사용법</value>
+  </data>
+  <data name="iOSScanText" xml:space="preserve">
+    <value>iOS 앱 스캔</value>
+  </data>
+  <data name="LastModifiedBy" xml:space="preserve">
+    <value>마지막 수정</value>
+  </data>
+  <data name="LastModifiedOn" xml:space="preserve">
+    <value>최근 수정</value>
+  </data>
+  <data name="LessOrEqual" xml:space="preserve">
+    <value>값은</value>
+  </data>
+  <data name="LoadingProject" xml:space="preserve">
+    <value>로드 프로젝트...</value>
+  </data>
+  <data name="LoadingText" xml:space="preserve">
+    <value>로드...</value>
+  </data>
+  <data name="LocatedIn" xml:space="preserve">
+    <value>에:</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>로그인 실패</value>
+  </data>
+  <data name="LoginMessage" xml:space="preserve">
+    <value>로그인에 대 한 질문이 있으시면, 아래의 지침을 클릭 하십시오.</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>로그아웃</value>
+  </data>
+  <data name="LogoutConfirmation" xml:space="preserve">
+    <value>로그아웃하시겠습니까?</value>
+  </data>
+  <data name="MaxImagesAlertMsg" xml:space="preserve">
+    <value>업로드만 허용됩니다. {0} 이미지.</value>
+  </data>
+  <data name="MenuFeedBack" xml:space="preserve">
+    <value>SUPPORT</value>
+  </data>
+  <data name="MenuHome" xml:space="preserve">
+    <value>프로젝트</value>
+  </data>
+  <data name="MenuImpersonate" xml:space="preserve">
+    <value>가장하다</value>
+  </data>
+  <data name="MenuNewProgram" xml:space="preserve">
+    <value>새 프로젝트 생성</value>
+  </data>
+  <data name="MenuSettings" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="MenuSync" xml:space="preserve">
+    <value>동기화</value>
+  </data>
+  <data name="MoreOptionsText" xml:space="preserve">
+    <value>추가 옵션</value>
+  </data>
+  <data name="NegativeValuesInformationText" xml:space="preserve">
+    <value>음수 값은 CRM 0으로 밀려나게 됩니다. 계속 하시겠습니까?</value>
+  </data>
+  <data name="NetworkAvailablity" xml:space="preserve">
+    <value>네트워크를 사용할 수 없습니다.</value>
+  </data>
+  <data name="NewProject" xml:space="preserve">
+    <value>새 프로젝트</value>
+  </data>
+  <data name="NoButton" xml:space="preserve">
+    <value>아니요</value>
+  </data>
+  <data name="NoneSelectedText" xml:space="preserve">
+    <value>아무도 선택되지 않았습니다.</value>
+  </data>
+  <data name="NoResultFound" xml:space="preserve">
+    <value>결과가 없습니다</value>
+  </data>
+  <data name="NoSoldToEmailId" xml:space="preserve">
+    <value>EcolabGlobalIntelligenceCenter@ecolab.com</value>
+  </data>
+  <data name="NoSoldToMessage" xml:space="preserve">
+    <value>선택한 사이트와 관련된 판매는 없습니다. 티켓은</value>
+  </data>
+  <data name="NoSoldTo_SubText" xml:space="preserve">
+    <value>고쳐야 합니다.</value>
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value>로그인한 사용자는 권한이 없습니다. 관리자에게 문의하십시오.</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>당신은 동기화 하려면 활성 인터넷 연결이 필요.</value>
+  </data>
+  <data name="NotNowText" xml:space="preserve">
+    <value>지금은 아니에요</value>
+  </data>
+  <data name="Numeric" xml:space="preserve">
+    <value>값은 숫자여야 합니다.</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>네</value>
+  </data>
+  <data name="OpenCMVProjectText" xml:space="preserve">
+    <value>CRM 프로젝트 열기</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>매개 변수</value>
+  </data>
+  <data name="PlaceHolderProjectName" xml:space="preserve">
+    <value>새 프로젝트에 대 한 이름</value>
+  </data>
+  <data name="Productivity" xml:space="preserve">
+    <value>생산성</value>
+  </data>
+  <data name="ProductivityChemistry" xml:space="preserve">
+    <value>생산성 화학</value>
+  </data>
+  <data name="ProductivityLabor" xml:space="preserve">
+    <value>생산성 - 인건비</value>
+  </data>
+  <data name="ProductivityLocation" xml:space="preserve">
+    <value>생산성 - 위치</value>
+  </data>
+  <data name="ProductivityPeople" xml:space="preserve">
+    <value>생산성 인재</value>
+  </data>
+  <data name="ProductivityPlant" xml:space="preserve">
+    <value>생산성 플랜트</value>
+  </data>
+  <data name="ProductivityProduct" xml:space="preserve">
+    <value>생산성 - 제품</value>
+  </data>
+  <data name="Profitability" xml:space="preserve">
+    <value>생산량 증가</value>
+  </data>
+  <data name="ProgramAlreadyPushedMessage" xml:space="preserve">
+    <value>이 프로젝트는 이미 CRM 밀려났습니다. 다시 밀면 모든 현재 데이터가 재정의됩니다. 계속 하시겠습니까?</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>프로젝트</value>
+  </data>
+  <data name="ProjectHomePage" xml:space="preserve">
+    <value>프로젝트</value>
+  </data>
+  <data name="ProjectInfo" xml:space="preserve">
+    <value>요청 정보</value>
+  </data>
+  <data name="ProjectInformationText" xml:space="preserve">
+    <value>프로젝트 정보</value>
+  </data>
+  <data name="ProjectName" xml:space="preserve">
+    <value>프로젝트 이름</value>
+  </data>
+  <data name="ProjectNameCannotBeEmpty" xml:space="preserve">
+    <value>프로젝트 이름이 비어 있을 수 없습니다</value>
+  </data>
+  <data name="ProjectNameExceedsTheMaximumLengthOf_X_Characters" xml:space="preserve">
+    <value>프로젝트 이름은 {0} 문자 최대 길이 초과</value>
+  </data>
+  <data name="ProjectNameShouldBeUniqueWithinTheAccount" xml:space="preserve">
+    <value>프로젝트 이름을 계정 내에서 고유 해야 합니다</value>
+  </data>
+  <data name="ProjectNameText" xml:space="preserve">
+    <value>  프로젝트 이름</value>
+  </data>
+  <data name="ProjectNameTextUWP" xml:space="preserve">
+    <value> 새 프로젝트 이름을 입력하십시오.</value>
+  </data>
+  <data name="ProjectParameters" xml:space="preserve">
+    <value>프로젝트 매개변수</value>
+  </data>
+  <data name="ProjectsCount" xml:space="preserve">
+    <value>총 프로젝트 정렬 기준</value>
+  </data>
+  <data name="ProjectSearchPlaceholder" xml:space="preserve">
+    <value>프로젝트에 대 한 검색</value>
+  </data>
+  <data name="ProposedState" xml:space="preserve">
+    <value>제안 된 상태</value>
+  </data>
+  <data name="PushedToCmv" xml:space="preserve">
+    <value>Pushed To CRM</value>
+  </data>
+  <data name="PushingToCRM" xml:space="preserve">
+    <value>CRM.</value>
+  </data>
+  <data name="PushToCMV" xml:space="preserve">
+    <value>CMV로 푸시</value>
+  </data>
+  <data name="PushToCmvInfo" xml:space="preserve">
+    <value>프로젝트가 성공적으로 저장되었습니다.</value>
+  </data>
+  <data name="PushToCmvInfoSubTitle" xml:space="preserve">
+    <value>가치 TCO 프로젝트는 여러분의 CRM 프로젝트로 쉽게 밀어 넣을 수 있습니다.</value>
+  </data>
+  <data name="PushToCmvInfoSubTitleNextLine" xml:space="preserve">
+    <value>"푸시 투 CRM" 기능은 "저장" 드롭다운 메뉴에서 찾을 수 있습니다.</value>
+  </data>
+  <data name="PushToCmvInfoTitle" xml:space="preserve">
+    <value>알고 계셨나요?</value>
+  </data>
+  <data name="PushToCmvText" xml:space="preserve">
+    <value>푸시 CRM</value>
+  </data>
+  <data name="Reduced" xml:space="preserve">
+    <value>감소</value>
+  </data>
+  <data name="ReducedCalIntro" xml:space="preserve">
+    <value>이 TCO 값 문서 도구의 목적은 감소 부식 retes 결과로 잠재적인 저축을 계산 하는 것입니다. 부식 제어 파이프 교체 비용 상당히 줄일 수 있습니다.</value>
+  </data>
+  <data name="ReducedEmissions" xml:space="preserve">
+    <value>배출 감소</value>
+  </data>
+  <data name="RefreshButton" xml:space="preserve">
+    <value>새로 고침</value>
+    <comment>Refresh Button</comment>
+  </data>
+  <data name="Reliability" xml:space="preserve">
+    <value>신뢰성</value>
+  </data>
+  <data name="ReliabilityCapacity" xml:space="preserve">
+    <value>용량 - 신뢰성</value>
+  </data>
+  <data name="RemoveRowAlert" xml:space="preserve">
+    <value>행을 제거할 수 없습니다.</value>
+  </data>
+  <data name="ReportDetailsTabName" xml:space="preserve">
+    <value>보고서 세부정보</value>
+  </data>
+  <data name="ReportGeneratedMessage" xml:space="preserve">
+    <value>보고서가 성공적으로 생성되었습니다.</value>
+  </data>
+  <data name="ReportGenerating" xml:space="preserve">
+    <value>보고서 생성 중...</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>要求仕様</value>
+  </data>
+  <data name="RequiredFieldsMissing" xml:space="preserve">
+    <value>필수 필드 누락</value>
+  </data>
+  <data name="RequiredFieldsMissingMessage" xml:space="preserve">
+    <value>누락된 필수 필드를 작성하십시오.</value>
+  </data>
+  <data name="RequireFieldsLeft" xml:space="preserve">
+    <value>{0:F0} 필수 필드 왼쪽</value>
+  </data>
+  <data name="RowsLimit" xml:space="preserve">
+    <value>행은 8개 이상 추가할 수 없습니다.</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>저장하기</value>
+  </data>
+  <data name="SaveAndClose" xml:space="preserve">
+    <value>저장 하 고 닫습니다</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>다른 이름으로 저장</value>
+  </data>
+  <data name="SaveAsNewProject" xml:space="preserve">
+    <value>다른 이름으로 저장</value>
+  </data>
+  <data name="SaveChangesMessage" xml:space="preserve">
+    <value>페이지를 떠나기 전에 변경 사항을 저장 하 시겠습니까?</value>
+  </data>
+  <data name="SaveChangesTitle" xml:space="preserve">
+    <value>변경 사항 저장</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="SavedSucessfullyText" xml:space="preserve">
+    <value>교묘하게 저장되었습니다.</value>
+  </data>
+  <data name="SaveOptionsText" xml:space="preserve">
+    <value>옵션 저장</value>
+  </data>
+  <data name="SavingText" xml:space="preserve">
+    <value>저장...</value>
+  </data>
+  <data name="ScanText" xml:space="preserve">
+    <value>모바일 앱 스캔</value>
+  </data>
+  <data name="SearchAccount" xml:space="preserve">
+    <value>계정 검색</value>
+  </data>
+  <data name="SearchAssetText" xml:space="preserve">
+    <value>자산 검색</value>
+  </data>
+  <data name="SearchCalculatorText" xml:space="preserve">
+    <value>계산기 검색</value>
+  </data>
+  <data name="SearchCurrency" xml:space="preserve">
+    <value>통화 검색</value>
+  </data>
+  <data name="SearchSiteText" xml:space="preserve">
+    <value>사이트 검색</value>
+  </data>
+  <data name="SearchValueCategoryText" xml:space="preserve">
+    <value>가치 카테고리 검색</value>
+  </data>
+  <data name="SelectAccountText" xml:space="preserve">
+    <value>계정 선택</value>
+  </data>
+  <data name="SelectAsset" xml:space="preserve">
+    <value>[자산] 선택</value>
+  </data>
+  <data name="SelectAssetText" xml:space="preserve">
+    <value>자산 선택</value>
+  </data>
+  <data name="SelectCalculatorTypeText" xml:space="preserve">
+    <value>계산기 유형 선택</value>
+  </data>
+  <data name="SelectSite" xml:space="preserve">
+    <value>사이트를 선택하십시오.</value>
+  </data>
+  <data name="SelectSiteText" xml:space="preserve">
+    <value>사이트 선택</value>
+  </data>
+  <data name="SelectText" xml:space="preserve">
+    <value>선택</value>
+  </data>
+  <data name="SelectTheAccount" xml:space="preserve">
+    <value>계정을 선택 하십시오</value>
+  </data>
+  <data name="SelectTheCalculatorType" xml:space="preserve">
+    <value>계산기의 종류를 선택 하십시오</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>*사이트</value>
+  </data>
+  <data name="SiteAndContextText" xml:space="preserve">
+    <value>사이트 및 컨텍스트</value>
+  </data>
+  <data name="SiteText" xml:space="preserve">
+    <value>사이트</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>정렬방식</value>
+  </data>
+  <data name="SortByCalculatorType" xml:space="preserve">
+    <value>계산기</value>
+  </data>
+  <data name="SortByProjectName" xml:space="preserve">
+    <value>프로젝트 이름</value>
+  </data>
+  <data name="SortByRecentlyViewed" xml:space="preserve">
+    <value>최근에 본</value>
+  </data>
+  <data name="SortByText" xml:space="preserve">
+    <value>정렬 기준</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>전송</value>
+  </data>
+  <data name="SynchronizingData" xml:space="preserve">
+    <value>데이터 동기화</value>
+  </data>
+  <data name="SystemOffline" xml:space="preserve">
+    <value>시스템 펌프 오프라인</value>
+  </data>
+  <data name="SystemOnline" xml:space="preserve">
+    <value>온라인 시스템</value>
+  </data>
+  <data name="ThermalEnergy" xml:space="preserve">
+    <value>열 에너지</value>
+  </data>
+  <data name="TitleRequiredFields" xml:space="preserve">
+    <value>필요한 필드가 누락되었습니다.</value>
+  </data>
+  <data name="TotalSavingsText" xml:space="preserve">
+    <value>총 절감 비용:  </value>
+  </data>
+  <data name="TotalValueSaved" xml:space="preserve">
+    <value>절감된 총액</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>재시도</value>
+  </data>
+  <data name="txtAccount" xml:space="preserve">
+    <value>계정</value>
+  </data>
+  <data name="txtAdditionalDescriptionError" xml:space="preserve">
+    <value>추가 설명은 2000자를 초과할 수 없습니다.</value>
+  </data>
+  <data name="txtProjectName" xml:space="preserve">
+    <value>프로젝트명</value>
+  </data>
+  <data name="txtRequiredFields" xml:space="preserve">
+    <value>필요한 모든 세부정보를 입력하십시오.</value>
+  </data>
+  <data name="txtSearchSite" xml:space="preserve">
+    <value>사이트 검색</value>
+  </data>
+  <data name="txtSite" xml:space="preserve">
+    <value>사이트</value>
+  </data>
+  <data name="txt_Retry_GetUser" xml:space="preserve">
+    <value>사용자 세부정보를 얻지 못했습니다. 재시도 수:-</value>
+  </data>
+  <data name="UnsavedData" xml:space="preserve">
+    <value>애플리케이션에 저장되지 않은 데이터가 있습니다.</value>
+  </data>
+  <data name="UpdatedTime" xml:space="preserve">
+    <value>업데이트됨</value>
+  </data>
+  <data name="UploadButton" xml:space="preserve">
+    <value>업로드</value>
+  </data>
+  <data name="ValueCategoryText" xml:space="preserve">
+    <value>가치 범주</value>
+  </data>
+  <data name="VerifyInputs" xml:space="preserve">
+    <value>당신의 입력을 확인 하십시오</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>버전</value>
+  </data>
+  <data name="Waste" xml:space="preserve">
+    <value>낭비</value>
+  </data>
+  <data name="WasteSolid" xml:space="preserve">
+    <value>폐기물 고체</value>
+  </data>
+  <data name="Water" xml:space="preserve">
+    <value>물</value>
+  </data>
+  <data name="WaterTabName" xml:space="preserve">
+    <value>물</value>
+  </data>
+  <data name="WordCount" xml:space="preserve">
+    <value>단어 수는 다음과 같거나 적어야 합니다. </value>
+  </data>
+  <data name="YesButton" xml:space="preserve">
+    <value>그래</value>
+  </data>
+</root>

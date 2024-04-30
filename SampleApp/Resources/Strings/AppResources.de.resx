@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="AccountDoesNotExistinCRM" xml:space="preserve">
+    <value>CRM-Konto existiert nicht, erstellen Sie bitte ein Ticket mit EGIC, um ein Konto in CRM hinzuzufügen.</value>
+  </data>
+  <data name="AccountInfo" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="AccountNotExists" xml:space="preserve">
+    <value>{project} kann nicht CRM gedrückt werden da das Konto nicht in CRM existiert. Bitte überprüfen Sie Ihre CRM Einstellungen.</value>
+  </data>
+  <data name="AccountText" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="AirQuality" xml:space="preserve">
+    <value>Luftqualität/</value>
+  </data>
+  <data name="Alert" xml:space="preserve">
+    <value>Alarm</value>
+  </data>
+  <data name="AllPrograms" xml:space="preserve">
+    <value>Alle Projekte</value>
+  </data>
+  <data name="AmmoniaCalIntro" xml:space="preserve">
+    <value>Der Zweck dieses Tools zur Dokumentation des TCO-Werts ist die Berechnung der potenziellen Einsparungen infolge der Reduzierung der Ablagerungen im Ammoniakkondensator. Für weitere Details zu Ammoniak KM-PAC 3 Anwendung und Best-Practices-Führung Abschnitt 3.8-Kühlsysteme, Seiten 303-304. Der Kondensator entfernt die Wärme, die im Verdampfer absorbiert und im Kompressor erhöht wurde, wodurch das Ammoniak in einen flüssigen Zustand zurückgeführt wird. Probleme treten auf, wenn sich an der Außenseite der Rohre Ablagerungen ansammeln, wodurch die Wärmeübertragung gehemmt wird.</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>Und</value>
+  </data>
+  <data name="AndroidScanText" xml:space="preserve">
+    <value>Android-App scannen</value>
+  </data>
+  <data name="AnnualSavingsTypeLabel" xml:space="preserve">
+    <value>Art der jährlichen Einsparungen</value>
+  </data>
+  <data name="ApplyText" xml:space="preserve">
+    <value>Anwenden</value>
+  </data>
+  <data name="ArchiveConfirmation" xml:space="preserve">
+    <value>Das Archivieren dieses Projekts wird das Projekt aus der TVD-Taschenrechner-Anwendung entfernen aber CRM nicht beeinflussen.  Kontaktieren Sie EGIC um das Projekt wiederherzustellen.</value>
+  </data>
+  <data name="ArchiveProgram" xml:space="preserve">
+    <value>Archiv-Projekt</value>
+  </data>
+  <data name="ArchiveProject" xml:space="preserve">
+    <value>Archiv-Projekt</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>Sind Sie sicher?</value>
+  </data>
+  <data name="Asset" xml:space="preserve">
+    <value>Vermögenswert</value>
+  </data>
+  <data name="AssetCapacity" xml:space="preserve">
+    <value>Kapazität - Anlagenschutz</value>
+  </data>
+  <data name="AssetLife" xml:space="preserve">
+    <value>Anlagenlebensdauer</value>
+  </data>
+  <data name="AssetText" xml:space="preserve">
+    <value>Asset</value>
+  </data>
+  <data name="AverageStandards" xml:space="preserve">
+    <value>Oder verwenden Sie Durchschnitte und Standards</value>
+  </data>
+  <data name="BackGroundSyncInProgress" xml:space="preserve">
+    <value>Hintergrund-Synchronisierung in Bearbeitung, bitte versuchen Sie es nach einiger Zeit nochmals</value>
+  </data>
+  <data name="BackText" xml:space="preserve">
+    <value> Zurück</value>
+  </data>
+  <data name="Between" xml:space="preserve">
+    <value>Wert sollte zwischen</value>
+  </data>
+  <data name="CalculationErrMsg" xml:space="preserve">
+    <value>Fehler bei der Berechnung, Bitte versuchen Sie es mit verschiedenen Werten.</value>
+  </data>
+  <data name="CalculatorType" xml:space="preserve">
+    <value>Taschenrechner</value>
+  </data>
+  <data name="CalculatorType1" xml:space="preserve">
+    <value>Taschenrechner</value>
+  </data>
+  <data name="CalculatorTypeText" xml:space="preserve">
+    <value>Taschenrechner</value>
+  </data>
+  <data name="CalenderText" xml:space="preserve">
+    <value>Kalender</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Abbrechen</value>
+  </data>
+  <data name="ChangesAndSavings" xml:space="preserve">
+    <value>Änderungen und Einsparungen</value>
+  </data>
+  <data name="ClearAllText" xml:space="preserve">
+    <value>Alle löschen</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Schliessen</value>
+  </data>
+  <data name="CloseApplication" xml:space="preserve">
+    <value>Anwendung schließen</value>
+  </data>
+  <data name="CmvCrmProjectLinkOpen" xml:space="preserve">
+    <value>Öffnen Sie das CRM Projekt</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CmvCurrentProjectState" xml:space="preserve">
+    <value>Aktueller CRM Projektstaat</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CmvErrorMsgConnection" xml:space="preserve">
+    <value>Während der Interaktion mit CRM ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CmvInfo" xml:space="preserve">
+    <value>CRM Programminformation</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CMVInfomationText" xml:space="preserve">
+    <value>Dieses Projekt wurde nicht auf CRM (OR) Dieses Projekt wurde vom CRM (OR) Gelöscht einige Änderungen an diesem Szenario</value>
+  </data>
+  <data name="CmvLastPublishedDate" xml:space="preserve">
+    <value>Datum der letzten Veröffentlichung</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CMVProjectInformationText" xml:space="preserve">
+    <value>CRM Projektinformationen</value>
+  </data>
+  <data name="CmvProjectName" xml:space="preserve">
+    <value>CRM Projektname</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CmvPushFailure" xml:space="preserve">
+    <value>'{project}' Projekt kann nicht auf CRM gedrückt werden.</value>
+  </data>
+  <data name="CmvPushSuccess" xml:space="preserve">
+    <value>'{project}' Projekt wurde erfolgreich CRM gedrängt.</value>
+  </data>
+  <data name="CompareStatesTabName" xml:space="preserve">
+    <value>Vergleichen Sie die Zustände</value>
+  </data>
+  <data name="CoolingCalIntro" xml:space="preserve">
+    <value>Das TCO-Wert-Dokumentationstool soll das Einsparpotenzial von Wasser infolge der steigenden Turm Zyklen zu berechnen. Bitte stellen Sie sicher, Szenario im Optimizer zu überprüfen, bevor er Empfehlungen.</value>
+  </data>
+  <data name="Costs" xml:space="preserve">
+    <value>Kosten</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>Erstellt von</value>
+  </data>
+  <data name="CreateNewProjectPage" xml:space="preserve">
+    <value>Neues Projekt</value>
+  </data>
+  <data name="CreatingProject" xml:space="preserve">
+    <value>Projekt erstellen...</value>
+  </data>
+  <data name="CreatingProjectText" xml:space="preserve">
+    <value>Projekt erstellen...</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Erstellungsdatum</value>
+  </data>
+  <data name="CreationDateEmpty" xml:space="preserve">
+    <value>Erstellungsdatum darf nicht leer sein</value>
+  </data>
+  <data name="CreationDateText" xml:space="preserve">
+    <value>Erstellungsdatum</value>
+  </data>
+  <data name="CRMAccountNotExist" xml:space="preserve">
+    <value>'{project}' kann nicht auf CRM gedrückt werden, da das CRM-Konto nicht existiert, erstellen Sie bitte ein Ticket mit EGIC, um ein Konto in CRM hinzuzufügen.</value>
+  </data>
+  <data name="CRMErrorMessage" xml:space="preserve">
+    <value>'{project}' kann nicht auf CRM gedrückt werden da die CRM Arbeitsmappe in CRM nicht im Konto vorhanden ist. Bitte überprüfen Sie Ihre CRM Einstellungen.</value>
+  </data>
+  <data name="CrmUserDoesNotExist" xml:space="preserve">
+    <value>{project} kann aufgrund unzureichender Genehmigung in CRM nicht CRM gedrückt werden. Bitte überprüfen Sie Ihre CRM Einstellungen.</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>Währung</value>
+  </data>
+  <data name="CurrencyInfo" xml:space="preserve">
+    <value>Währung</value>
+  </data>
+  <data name="CurrencyText" xml:space="preserve">
+    <value>Währung</value>
+  </data>
+  <data name="CurrencyValidation" xml:space="preserve">
+    <value>Die Währung darf nicht leer sein</value>
+  </data>
+  <data name="CurrentState" xml:space="preserve">
+    <value>Aktueller Zustand</value>
+  </data>
+  <data name="DeepLinkNoAccountAccess" xml:space="preserve">
+    <value>Sie haben keinen Zugriff auf das ausgewählte Konto. Bitte favorisierten Sie die seite die mit diesem in Asset Harvester assoziiert ist.</value>
+  </data>
+  <data name="DeepLinkNoSiteAccess" xml:space="preserve">
+    <value>Sie haben keinen Zugriff auf die ausgewählte Website. Bitte favoriten Sie die Website im Asset Harvester um darauf zuzugreifen.</value>
+  </data>
+  <data name="DiscardText" xml:space="preserve">
+    <value>Verwerfen</value>
+  </data>
+  <data name="DisplayIn" xml:space="preserve">
+    <value>Anzeige im</value>
+  </data>
+  <data name="DollarSaveBreakdownByCategory" xml:space="preserve">
+    <value>Aufschlüsselung des Dollar nach Kategorie gespeichert</value>
+  </data>
+  <data name="DoNotShow" xml:space="preserve">
+    <value>Diese Nachricht nicht mehr anzeigen.</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Entwurf</value>
+  </data>
+  <data name="EditButton" xml:space="preserve">
+    <value>Bearbeiten</value>
+  </data>
+  <data name="EditProjectInfoText" xml:space="preserve">
+    <value>Projektinformation bearbeiten</value>
+  </data>
+  <data name="EditProjectPage" xml:space="preserve">
+    <value>Projekt bearbeiten</value>
+  </data>
+  <data name="ElectricalEnergy" xml:space="preserve">
+    <value>Elektrische Energie</value>
+  </data>
+  <data name="Emission" xml:space="preserve">
+    <value>Emission</value>
+  </data>
+  <data name="Energy" xml:space="preserve">
+    <value>Energie</value>
+  </data>
+  <data name="EnergyElectrical" xml:space="preserve">
+    <value>Energie - Elektrische Energie</value>
+  </data>
+  <data name="EnergyGreenhouse" xml:space="preserve">
+    <value>Energie - Treibhausgase</value>
+  </data>
+  <data name="EnergyTabName" xml:space="preserve">
+    <value>Energie</value>
+  </data>
+  <data name="EnergyThermal" xml:space="preserve">
+    <value>Energie - Thermisch</value>
+  </data>
+  <data name="Error_Calculation" xml:space="preserve">
+    <value>Fehler bei der Berechnung, Bitte geben Sie verschiedene Werte ein.</value>
+  </data>
+  <data name="ExchangeRate" xml:space="preserve">
+    <value>* Wechselkurs (in Kürze)</value>
+  </data>
+  <data name="FeatureComingSoon" xml:space="preserve">
+    <value>Die Funktion wird demnächst</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>Bericht erstellen</value>
+  </data>
+  <data name="GreaterOrEqual" xml:space="preserve">
+    <value>Wert sollte größer oder gleich sein</value>
+  </data>
+  <data name="HistoricalData" xml:space="preserve">
+    <value>Historische Daten</value>
+  </data>
+  <data name="HowToDetermine" xml:space="preserve">
+    <value>Wie man bestimmt {0}</value>
+  </data>
+  <data name="ImageExtentionAlertMsg" xml:space="preserve">
+    <value>Bitte laden Sie Bilder mit Erweiterung .jpg / .jpeg / nur .png hoch</value>
+  </data>
+  <data name="Improved" xml:space="preserve">
+    <value>Verbessert</value>
+  </data>
+  <data name="Increased" xml:space="preserve">
+    <value>Erhöht</value>
+  </data>
+  <data name="InfoText" xml:space="preserve">
+    <value>Informationen</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Anweisungen</value>
+  </data>
+  <data name="iOSScanText" xml:space="preserve">
+    <value>Suchen Sie nach iOS-App</value>
+  </data>
+  <data name="LastModifiedBy" xml:space="preserve">
+    <value>Zuletzt Geändert Von</value>
+  </data>
+  <data name="LastModifiedOn" xml:space="preserve">
+    <value>Zuletzt Geändert Am</value>
+  </data>
+  <data name="LessOrEqual" xml:space="preserve">
+    <value>Wert sollte weniger oder gleich sein</value>
+  </data>
+  <data name="LoadingProject" xml:space="preserve">
+    <value>Laden-Projekt...</value>
+  </data>
+  <data name="LoadingText" xml:space="preserve">
+    <value>Laden...</value>
+  </data>
+  <data name="LocatedIn" xml:space="preserve">
+    <value>Standort in:</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>Anmeldung fehlgeschlagen</value>
+  </data>
+  <data name="LoginMessage" xml:space="preserve">
+    <value>Wenn Sie Fragen zum Login haben, klicken Sie bitte die Anweisungen unten.</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>ABMELDEN</value>
+  </data>
+  <data name="LogoutConfirmation" xml:space="preserve">
+    <value>Möchten Sie sich abmelden?</value>
+  </data>
+  <data name="MaxImagesAlertMsg" xml:space="preserve">
+    <value>Sie dürfen nur hochladen {0} Bilder.</value>
+  </data>
+  <data name="MenuFeedBack" xml:space="preserve">
+    <value>SUPPORT</value>
+  </data>
+  <data name="MenuHome" xml:space="preserve">
+    <value>PROJECT-STARTSEITE</value>
+  </data>
+  <data name="MenuImpersonate" xml:space="preserve">
+    <value>Nachahmen</value>
+  </data>
+  <data name="MenuNewProgram" xml:space="preserve">
+    <value>Neues Projekt</value>
+  </data>
+  <data name="MenuSettings" xml:space="preserve">
+    <value>EINSTELLUNGEN</value>
+  </data>
+  <data name="MenuSync" xml:space="preserve">
+    <value>Synchronisieren</value>
+  </data>
+  <data name="MoreOptionsText" xml:space="preserve">
+    <value>Weitere Optionen</value>
+  </data>
+  <data name="NegativeValuesInformationText" xml:space="preserve">
+    <value>Negative Werte werden auf CRM als 0 gedrückt. Möchten Sie fortfahren?</value>
+  </data>
+  <data name="NetworkAvailablity" xml:space="preserve">
+    <value>Netzwerk ist nicht verfügbar</value>
+  </data>
+  <data name="NewProject" xml:space="preserve">
+    <value>Neues Projekt</value>
+  </data>
+  <data name="NoButton" xml:space="preserve">
+    <value>Nein</value>
+  </data>
+  <data name="NoneSelectedText" xml:space="preserve">
+    <value>Keine ausgewählt</value>
+  </data>
+  <data name="NoResultFound" xml:space="preserve">
+    <value>Kein Ergebnis gefunden</value>
+  </data>
+  <data name="NoSoldToEmailId" xml:space="preserve">
+    <value>EcolabGlobalIntelligenceCenter@ecolab.com</value>
+  </data>
+  <data name="NoSoldToMessage" xml:space="preserve">
+    <value>Es gibt keinen Verkauf an den ausgewählten Standort angeschlossen. Bitte erstellen Sie ein Ticket mit</value>
+  </data>
+  <data name="NoSoldTo_SubText" xml:space="preserve">
+    <value>um dies zu korrigieren.</value>
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value>Der angemeldete Benutzer ist nicht autorisiert. Bitte kontaktieren Sie den Administrator.</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>Sie benötigen eine aktive Internetverbindung synchronisieren.</value>
+  </data>
+  <data name="NotNowText" xml:space="preserve">
+    <value>Jetzt nicht</value>
+  </data>
+  <data name="Numeric" xml:space="preserve">
+    <value>Wert sollte numerisch sein</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>OKAY</value>
+  </data>
+  <data name="OpenCMVProjectText" xml:space="preserve">
+    <value>CRM Projekt öffnen</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="PlaceHolderProjectName" xml:space="preserve">
+    <value>Namen für neues Projekt</value>
+  </data>
+  <data name="Productivity" xml:space="preserve">
+    <value>Produktivität</value>
+  </data>
+  <data name="ProductivityChemistry" xml:space="preserve">
+    <value>Produktivitätschemie</value>
+  </data>
+  <data name="ProductivityLabor" xml:space="preserve">
+    <value>Produktivität - Arbeit</value>
+  </data>
+  <data name="ProductivityLocation" xml:space="preserve">
+    <value>Produktivität - Standort</value>
+  </data>
+  <data name="ProductivityPeople" xml:space="preserve">
+    <value>Produktivität Mitarbeiter</value>
+  </data>
+  <data name="ProductivityPlant" xml:space="preserve">
+    <value>Produktivitätsanlage</value>
+  </data>
+  <data name="ProductivityProduct" xml:space="preserve">
+    <value>Produktivität - Produkt</value>
+  </data>
+  <data name="Profitability" xml:space="preserve">
+    <value>Produktionssteigerung</value>
+  </data>
+  <data name="ProgramAlreadyPushedMessage" xml:space="preserve">
+    <value>Das Projekt wurde bereits CRM gedrängt. Sobald Sie es erneut drücken, werden alle aktuellen Daten übersteuert. Möchten Sie fortfahren?</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>Projekt</value>
+  </data>
+  <data name="ProjectHomePage" xml:space="preserve">
+    <value>Project-Startseite</value>
+  </data>
+  <data name="ProjectInfo" xml:space="preserve">
+    <value>Projektinformationen</value>
+  </data>
+  <data name="ProjectInformationText" xml:space="preserve">
+    <value>Projektinformationen</value>
+  </data>
+  <data name="ProjectName" xml:space="preserve">
+    <value>Projektname</value>
+  </data>
+  <data name="ProjectNameCannotBeEmpty" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ProjectNameExceedsTheMaximumLengthOf_X_Characters" xml:space="preserve">
+    <value>Projektnamen überschreitet die maximale Länge von {0} Zeichen</value>
+  </data>
+  <data name="ProjectNameShouldBeUniqueWithinTheAccount" xml:space="preserve">
+    <value>Projektname sollte eindeutig innerhalb des Kontos sein</value>
+  </data>
+  <data name="ProjectNameText" xml:space="preserve">
+    <value>  Projektname</value>
+  </data>
+  <data name="ProjectNameTextUWP" xml:space="preserve">
+    <value> Geben Sie einen neuen Projektnamen ein</value>
+  </data>
+  <data name="ProjectParameters" xml:space="preserve">
+    <value>Projektparameter</value>
+  </data>
+  <data name="ProjectsCount" xml:space="preserve">
+    <value>Projekte gesamt sortiert nach</value>
+  </data>
+  <data name="ProjectSearchPlaceholder" xml:space="preserve">
+    <value>Suche für ein Projekt</value>
+  </data>
+  <data name="ProposedState" xml:space="preserve">
+    <value>Zustand "vorgeschlagen"</value>
+  </data>
+  <data name="PushedToCmv" xml:space="preserve">
+    <value>An CRM gedrückt</value>
+  </data>
+  <data name="PushingToCRM" xml:space="preserve">
+    <value>Drücken auf CRM..</value>
+  </data>
+  <data name="PushToCMV" xml:space="preserve">
+    <value>An CMV senden</value>
+  </data>
+  <data name="PushToCmvInfo" xml:space="preserve">
+    <value>Das Projekt wurde erfolgreich gespeichert</value>
+  </data>
+  <data name="PushToCmvInfoSubTitle" xml:space="preserve">
+    <value>Das Projekt TCO Wert kann leicht in Ihr CRM Projekt gedrückt werden.</value>
+  </data>
+  <data name="PushToCmvInfoSubTitleNextLine" xml:space="preserve">
+    <value>Die Funktion "Push To CRM" befindet sich im Dropdown-Menü Speichern.</value>
+  </data>
+  <data name="PushToCmvInfoTitle" xml:space="preserve">
+    <value>Wussten Sie schon?</value>
+  </data>
+  <data name="PushToCmvText" xml:space="preserve">
+    <value>Druck auf CRM</value>
+  </data>
+  <data name="Reduced" xml:space="preserve">
+    <value>Reduziert</value>
+  </data>
+  <data name="ReducedCalIntro" xml:space="preserve">
+    <value>Das TCO-Wert-Dokumentationstool soll die potenziellen Einsparungen durch geringere Korrosion Retes berechnen. Kontrolle der Korrosion Rohr Ersatzkosten deutlich reduzieren kann.</value>
+  </data>
+  <data name="ReducedEmissions" xml:space="preserve">
+    <value>reduzierung der Emissionen</value>
+  </data>
+  <data name="RefreshButton" xml:space="preserve">
+    <value>Aktualisieren</value>
+    <comment>Refresh Button</comment>
+  </data>
+  <data name="Reliability" xml:space="preserve">
+    <value>Zuverlässigkeit</value>
+  </data>
+  <data name="ReliabilityCapacity" xml:space="preserve">
+    <value>Kapazität - Zuverlässigkeit</value>
+  </data>
+  <data name="RemoveRowAlert" xml:space="preserve">
+    <value>Sie können die Zeile nicht entfernen.</value>
+  </data>
+  <data name="ReportDetailsTabName" xml:space="preserve">
+    <value>Details des Berichts</value>
+  </data>
+  <data name="ReportGeneratedMessage" xml:space="preserve">
+    <value>Der Bericht wurde erfolgreich generiert.</value>
+  </data>
+  <data name="ReportGenerating" xml:space="preserve">
+    <value>Erstellen eines Berichts...</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>Erforderlich</value>
+  </data>
+  <data name="RequiredFieldsMissing" xml:space="preserve">
+    <value>Erforderliche Felder fehlen</value>
+  </data>
+  <data name="RequiredFieldsMissingMessage" xml:space="preserve">
+    <value>Bitte füllen Sie die erforderlichen Felder aus, die fehlen.</value>
+  </data>
+  <data name="RequireFieldsLeft" xml:space="preserve">
+    <value>{0:F0} Erforderliches Feld(n) links</value>
+  </data>
+  <data name="RowsLimit" xml:space="preserve">
+    <value>Sie können nicht mehr als 8 Zeilen hinzufügen.</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="SaveAndClose" xml:space="preserve">
+    <value>Speichern und schließen</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>Speichern unter</value>
+  </data>
+  <data name="SaveAsNewProject" xml:space="preserve">
+    <value>Als Neu speichern</value>
+  </data>
+  <data name="SaveChangesMessage" xml:space="preserve">
+    <value>Möchten Sie Ihre Änderungen speichern, bevor Sie die Seite verlassen?</value>
+  </data>
+  <data name="SaveChangesTitle" xml:space="preserve">
+    <value>Änderungen speichern</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>Gespeichert</value>
+  </data>
+  <data name="SavedSucessfullyText" xml:space="preserve">
+    <value>Erfolgreich gespeichert.</value>
+  </data>
+  <data name="SaveOptionsText" xml:space="preserve">
+    <value>Optionen speichern</value>
+  </data>
+  <data name="SavingText" xml:space="preserve">
+    <value>Speichern...</value>
+  </data>
+  <data name="ScanText" xml:space="preserve">
+    <value>Suchen Sie nach mobiler App</value>
+  </data>
+  <data name="SearchAccount" xml:space="preserve">
+    <value>Suchkonto</value>
+  </data>
+  <data name="SearchAssetText" xml:space="preserve">
+    <value>Anlagen suchen</value>
+  </data>
+  <data name="SearchCalculatorText" xml:space="preserve">
+    <value>Suchrechner</value>
+  </data>
+  <data name="SearchCurrency" xml:space="preserve">
+    <value>Währung suchen</value>
+  </data>
+  <data name="SearchSiteText" xml:space="preserve">
+    <value>Website suchen</value>
+  </data>
+  <data name="SearchValueCategoryText" xml:space="preserve">
+    <value>Kategorie des Wertes suchen</value>
+  </data>
+  <data name="SelectAccountText" xml:space="preserve">
+    <value>Wählen Sie ein Konto aus</value>
+  </data>
+  <data name="SelectAsset" xml:space="preserve">
+    <value>Anlage # wählen:</value>
+  </data>
+  <data name="SelectAssetText" xml:space="preserve">
+    <value>Wählen Sie eine Anlage aus</value>
+  </data>
+  <data name="SelectCalculatorTypeText" xml:space="preserve">
+    <value>Wählen Sie einen Taschenrechnertyp aus</value>
+  </data>
+  <data name="SelectSite" xml:space="preserve">
+    <value>Bitte wählen Sie den Standort aus</value>
+  </data>
+  <data name="SelectSiteText" xml:space="preserve">
+    <value>Wählen Sie einen Standort aus</value>
+  </data>
+  <data name="SelectText" xml:space="preserve">
+    <value>Auswählen</value>
+  </data>
+  <data name="SelectTheAccount" xml:space="preserve">
+    <value>Wählen Sie ein Konto-Typ</value>
+  </data>
+  <data name="SelectTheCalculatorType" xml:space="preserve">
+    <value>Bitte wählen Sie den Rechner</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>*Website</value>
+  </data>
+  <data name="SiteAndContextText" xml:space="preserve">
+    <value>Standort und Kontext</value>
+  </data>
+  <data name="SiteText" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>Sortieren nach</value>
+  </data>
+  <data name="SortByCalculatorType" xml:space="preserve">
+    <value>Taschenrechner</value>
+  </data>
+  <data name="SortByProjectName" xml:space="preserve">
+    <value>Projektname</value>
+  </data>
+  <data name="SortByRecentlyViewed" xml:space="preserve">
+    <value>Zuletzt angesehen</value>
+  </data>
+  <data name="SortByText" xml:space="preserve">
+    <value>Sortieren nach</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Senden</value>
+  </data>
+  <data name="SynchronizingData" xml:space="preserve">
+    <value>Das Synchronisieren von Daten...</value>
+  </data>
+  <data name="SystemOffline" xml:space="preserve">
+    <value>SYSTEM OFFLINE</value>
+  </data>
+  <data name="SystemOnline" xml:space="preserve">
+    <value>SYSTEM ONLINE</value>
+  </data>
+  <data name="ThermalEnergy" xml:space="preserve">
+    <value>Thermische Energie</value>
+  </data>
+  <data name="TitleRequiredFields" xml:space="preserve">
+    <value>Erforderliche Felder fehlen</value>
+  </data>
+  <data name="TotalSavingsText" xml:space="preserve">
+    <value>Gesamteinsparungen:  </value>
+  </data>
+  <data name="TotalValueSaved" xml:space="preserve">
+    <value>Gespeicherter Gesamtwert</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>Erneut versuchen</value>
+  </data>
+  <data name="txtAccount" xml:space="preserve">
+    <value>Konto</value>
+  </data>
+  <data name="txtAdditionalDescriptionError" xml:space="preserve">
+    <value>Zusätzliche Beschreibung darf nicht mehr als 20.000 Zeichen betragen.</value>
+  </data>
+  <data name="txtProjectName" xml:space="preserve">
+    <value>Projektname</value>
+  </data>
+  <data name="txtRequiredFields" xml:space="preserve">
+    <value>Bitte füllen Sie alle erforderlichen Details aus</value>
+  </data>
+  <data name="txtSearchSite" xml:space="preserve">
+    <value>Website suchen</value>
+  </data>
+  <data name="txtSite" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="txt_Retry_GetUser" xml:space="preserve">
+    <value>Benutzerdetails konnten nicht erhalten werden. Wiederholungszählung:-</value>
+  </data>
+  <data name="UnsavedData" xml:space="preserve">
+    <value>Es sind nicht gespeicherte Daten in der Anwendung vorhanden</value>
+  </data>
+  <data name="UpdatedTime" xml:space="preserve">
+    <value>Aktualisiert</value>
+  </data>
+  <data name="UploadButton" xml:space="preserve">
+    <value>Hochladen</value>
+  </data>
+  <data name="ValueCategoryText" xml:space="preserve">
+    <value>Wertkategorie</value>
+  </data>
+  <data name="VerifyInputs" xml:space="preserve">
+    <value>Bitte überprüfen Sie Ihre Eingaben</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="Waste" xml:space="preserve">
+    <value>Abfälle</value>
+  </data>
+  <data name="WasteSolid" xml:space="preserve">
+    <value>Abfallfeststoff</value>
+  </data>
+  <data name="Water" xml:space="preserve">
+    <value>Wasser</value>
+  </data>
+  <data name="WaterTabName" xml:space="preserve">
+    <value>Wasser</value>
+  </data>
+  <data name="WordCount" xml:space="preserve">
+    <value>Wortanzahl sollte weniger oder gleich sein </value>
+  </data>
+  <data name="YesButton" xml:space="preserve">
+    <value>Ja</value>
+  </data>
+</root>

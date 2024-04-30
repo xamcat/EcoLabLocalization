@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account" xml:space="preserve">
+    <value>帐户</value>
+  </data>
+  <data name="AccountDoesNotExistinCRM" xml:space="preserve">
+    <value>CRM account does not exist, please create a ticket with EGIC to add account in CRM.</value>
+  </data>
+  <data name="AccountInfo" xml:space="preserve">
+    <value>帐户</value>
+  </data>
+  <data name="AccountNotExists" xml:space="preserve">
+    <value>{project} can’t be pushed to CRM since the account doesn’t exist in CRM. Please check your CRM settings.</value>
+  </data>
+  <data name="AccountText" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="AirQuality" xml:space="preserve">
+    <value>air quality/</value>
+  </data>
+  <data name="Alert" xml:space="preserve">
+    <value>警报</value>
+  </data>
+  <data name="AllPrograms" xml:space="preserve">
+    <value>All Projects</value>
+  </data>
+  <data name="AmmoniaCalIntro" xml:space="preserve">
+    <value>这一 tco 价值文档工具的目的是计算氨冷凝器中减少水垢的潜在节余。进一步详细介绍氨水 pac 3 应用和最佳做法指南-部分 3.8-制冷系统, 页数303-304。冷凝器去除了被吸收在蒸发器和增加的热量在压缩机, 因而退回氨回到液体状态。当管外有结垢时出现问题, 抑制传热</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="AndroidScanText" xml:space="preserve">
+    <value>Scan for Android App</value>
+  </data>
+  <data name="AnnualSavingsTypeLabel" xml:space="preserve">
+    <value>Annual Savings Type</value>
+  </data>
+  <data name="ApplyText" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="ArchiveConfirmation" xml:space="preserve">
+    <value>Archiving this project will remove the project from the TVD Calculator application but will not impact CRM.  Contact EGIC to restore the project.</value>
+  </data>
+  <data name="ArchiveProgram" xml:space="preserve">
+    <value>存档项目 ！</value>
+  </data>
+  <data name="ArchiveProject" xml:space="preserve">
+    <value>存档项目 ！</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>你确定吗？</value>
+  </data>
+  <data name="Asset" xml:space="preserve">
+    <value>资产</value>
+  </data>
+  <data name="AssetCapacity" xml:space="preserve">
+    <value>Capacity - Asset Protection</value>
+  </data>
+  <data name="AssetLife" xml:space="preserve">
+    <value>Asset life</value>
+  </data>
+  <data name="AssetText" xml:space="preserve">
+    <value>Asset</value>
+  </data>
+  <data name="AverageStandards" xml:space="preserve">
+    <value>Or use averages and standards</value>
+  </data>
+  <data name="BackGroundSyncInProgress" xml:space="preserve">
+    <value>后台同步正在进行中，请稍后重试</value>
+  </data>
+  <data name="BackText" xml:space="preserve">
+    <value> Back</value>
+  </data>
+  <data name="Between" xml:space="preserve">
+    <value>Value should be between</value>
+  </data>
+  <data name="CalculationErrMsg" xml:space="preserve">
+    <value>Error occurred in calculation, Please try with different values.</value>
+  </data>
+  <data name="CalculatorType" xml:space="preserve">
+    <value>计算器</value>
+  </data>
+  <data name="CalculatorType1" xml:space="preserve">
+    <value>计算器</value>
+  </data>
+  <data name="CalculatorTypeText" xml:space="preserve">
+    <value>计算器</value>
+  </data>
+  <data name="CalenderText" xml:space="preserve">
+    <value>Calender</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="ChangesAndSavings" xml:space="preserve">
+    <value>Changes and Savings</value>
+  </data>
+  <data name="ClearAllText" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="CloseApplication" xml:space="preserve">
+    <value>关闭应用程序。</value>
+  </data>
+  <data name="CmvCrmProjectLinkOpen" xml:space="preserve">
+    <value>Open the CRM project</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CmvCurrentProjectState" xml:space="preserve">
+    <value>Current CRM Project State</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CmvErrorMsgConnection" xml:space="preserve">
+    <value>与 CRM 交互时出错。请稍后重试。</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CmvInfo" xml:space="preserve">
+    <value>CRM Program Info</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CMVInfomationText" xml:space="preserve">
+    <value>This project hasn't been pushed to CRM (OR) This project has been deleted from the CRM (OR) Some changes has been made to this scenario</value>
+  </data>
+  <data name="CmvLastPublishedDate" xml:space="preserve">
+    <value>上次发布日期</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CMVProjectInformationText" xml:space="preserve">
+    <value>CRM Project Information</value>
+  </data>
+  <data name="CmvProjectName" xml:space="preserve">
+    <value>CRM Project Name</value>
+    <comment>Cmv Project Flyout</comment>
+  </data>
+  <data name="CmvPushFailure" xml:space="preserve">
+    <value>'{project}' Project can’t be pushed to CRM.</value>
+  </data>
+  <data name="CmvPushSuccess" xml:space="preserve">
+    <value>'{project}' Project has been pushed to CRM successfully.</value>
+  </data>
+  <data name="CompareStatesTabName" xml:space="preserve">
+    <value>Compare states</value>
+  </data>
+  <data name="CoolingCalIntro" xml:space="preserve">
+    <value>这个总体拥有成本值文档工具的目的是计算潜在的水储蓄应付日益庞大的塔周期。请务必查看方案在优化器作出建议前。 ！</value>
+  </data>
+  <data name="Costs" xml:space="preserve">
+    <value>Costs</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="CreatedBy" xml:space="preserve">
+    <value>创建于</value>
+  </data>
+  <data name="CreateNewProjectPage" xml:space="preserve">
+    <value>创建新项目</value>
+  </data>
+  <data name="CreatingProject" xml:space="preserve">
+    <value>Creating Project...</value>
+  </data>
+  <data name="CreatingProjectText" xml:space="preserve">
+    <value>Creating Project...</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="CreationDateEmpty" xml:space="preserve">
+    <value>创建日期不能为空 ！</value>
+  </data>
+  <data name="CreationDateText" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="CRMAccountNotExist" xml:space="preserve">
+    <value>'{project}' can't be pushed to CRM since the CRM account doesn't exist, please create a ticket with EGIC to add account in CRM.</value>
+  </data>
+  <data name="CRMErrorMessage" xml:space="preserve">
+    <value>'{project}' can't be pushed to CRM since the CRM workbook doesn't exist in the account in CRM. Please check your CRM settings.</value>
+  </data>
+  <data name="CrmUserDoesNotExist" xml:space="preserve">
+    <value>{project} can’t be pushed to CRM due to insufficient permission in CRM. Please check your CRM settings.</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>货币</value>
+  </data>
+  <data name="CurrencyInfo" xml:space="preserve">
+    <value>货币</value>
+  </data>
+  <data name="CurrencyText" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="CurrencyValidation" xml:space="preserve">
+    <value>货币不能为空 ！</value>
+  </data>
+  <data name="CurrentState" xml:space="preserve">
+    <value>当前状态</value>
+  </data>
+  <data name="DeepLinkNoAccountAccess" xml:space="preserve">
+    <value>You do not have access to the selected account. Please favorite the site associated with it in Asset harvester.</value>
+  </data>
+  <data name="DeepLinkNoSiteAccess" xml:space="preserve">
+    <value>You do not have access to the selected site. Please favorite the site in Asset harvester to access it.</value>
+  </data>
+  <data name="DiscardText" xml:space="preserve">
+    <value>Discard</value>
+  </data>
+  <data name="DisplayIn" xml:space="preserve">
+    <value>显示在：</value>
+  </data>
+  <data name="DollarSaveBreakdownByCategory" xml:space="preserve">
+    <value>Dollar saved breakdown by category</value>
+  </data>
+  <data name="DoNotShow" xml:space="preserve">
+    <value>不再显示此消息。</value>
+  </data>
+  <data name="Draft" xml:space="preserve">
+    <value>Draft</value>
+  </data>
+  <data name="EditButton" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="EditProjectInfoText" xml:space="preserve">
+    <value>Edit Project Info</value>
+  </data>
+  <data name="EditProjectPage" xml:space="preserve">
+    <value>编辑项目</value>
+  </data>
+  <data name="ElectricalEnergy" xml:space="preserve">
+    <value>Electrical Energy</value>
+  </data>
+  <data name="Emission" xml:space="preserve">
+    <value>Emission</value>
+  </data>
+  <data name="Energy" xml:space="preserve">
+    <value>energy</value>
+  </data>
+  <data name="EnergyElectrical" xml:space="preserve">
+    <value>Energy - Electrical</value>
+  </data>
+  <data name="EnergyGreenhouse" xml:space="preserve">
+    <value>Energy - Greenhouse Gases</value>
+  </data>
+  <data name="EnergyTabName" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="EnergyThermal" xml:space="preserve">
+    <value>Energy - Thermal</value>
+  </data>
+  <data name="Error_Calculation" xml:space="preserve">
+    <value>Error occurred in calculation, Please enter different values.</value>
+  </data>
+  <data name="ExchangeRate" xml:space="preserve">
+    <value>* 汇率 （即将推出） ！</value>
+  </data>
+  <data name="FeatureComingSoon" xml:space="preserve">
+    <value>Feature will be coming soon</value>
+  </data>
+  <data name="GenerateReport" xml:space="preserve">
+    <value>生成报告</value>
+  </data>
+  <data name="GreaterOrEqual" xml:space="preserve">
+    <value>Value should be greater or equal to</value>
+  </data>
+  <data name="HistoricalData" xml:space="preserve">
+    <value>Historical Data</value>
+  </data>
+  <data name="HowToDetermine" xml:space="preserve">
+    <value>How to determine {0}</value>
+  </data>
+  <data name="ImageExtentionAlertMsg" xml:space="preserve">
+    <value>Please upload images with extension .jpg / .jpeg / .png only</value>
+  </data>
+  <data name="Improved" xml:space="preserve">
+    <value>improved</value>
+  </data>
+  <data name="Increased" xml:space="preserve">
+    <value>increased</value>
+  </data>
+  <data name="InfoText" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>指示</value>
+  </data>
+  <data name="iOSScanText" xml:space="preserve">
+    <value>Scan for iOS App</value>
+  </data>
+  <data name="LastModifiedBy" xml:space="preserve">
+    <value>最后修改</value>
+  </data>
+  <data name="LastModifiedOn" xml:space="preserve">
+    <value>最近修改时间</value>
+  </data>
+  <data name="LessOrEqual" xml:space="preserve">
+    <value>Value should be less or equal to</value>
+  </data>
+  <data name="LoadingProject" xml:space="preserve">
+    <value>工程加載中...</value>
+  </data>
+  <data name="LoadingText" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="LocatedIn" xml:space="preserve">
+    <value>位于</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>登录失败！</value>
+  </data>
+  <data name="LoginMessage" xml:space="preserve">
+    <value>如果你有关于登录问题，请单击下面的说明。 ！</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>注销</value>
+  </data>
+  <data name="LogoutConfirmation" xml:space="preserve">
+    <value>是否要注销？</value>
+  </data>
+  <data name="MaxImagesAlertMsg" xml:space="preserve">
+    <value>You are only allowed to upload {0} images.</value>
+  </data>
+  <data name="MenuFeedBack" xml:space="preserve">
+    <value>反馈</value>
+  </data>
+  <data name="MenuHome" xml:space="preserve">
+    <value>项目主页 ！</value>
+  </data>
+  <data name="MenuImpersonate" xml:space="preserve">
+    <value>模拟了 ！</value>
+  </data>
+  <data name="MenuNewProgram" xml:space="preserve">
+    <value>創建新工程</value>
+  </data>
+  <data name="MenuSettings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="MenuSync" xml:space="preserve">
+    <value>同步</value>
+  </data>
+  <data name="MoreOptionsText" xml:space="preserve">
+    <value>More Options</value>
+  </data>
+  <data name="NegativeValuesInformationText" xml:space="preserve">
+    <value>Negative values will be pushed to CRM as 0. Would you like to continue?</value>
+  </data>
+  <data name="NetworkAvailablity" xml:space="preserve">
+    <value>网络不可用</value>
+  </data>
+  <data name="NewProject" xml:space="preserve">
+    <value>新建项目</value>
+  </data>
+  <data name="NoButton" xml:space="preserve">
+    <value>不！</value>
+  </data>
+  <data name="NoneSelectedText" xml:space="preserve">
+    <value>None Selected</value>
+  </data>
+  <data name="NoResultFound" xml:space="preserve">
+    <value>找不到您要的结果。</value>
+  </data>
+  <data name="NoSoldToEmailId" xml:space="preserve">
+    <value>EcolabGlobalIntelligenceCenter@ecolab.com</value>
+  </data>
+  <data name="NoSoldToMessage" xml:space="preserve">
+    <value>There are no sold to associated with the selected site. Please create a ticket with</value>
+  </data>
+  <data name="NoSoldTo_SubText" xml:space="preserve">
+    <value>to correct this.</value>
+  </data>
+  <data name="NotAuthorized" xml:space="preserve">
+    <value>The logged in user is not Authorized. Please contact the admin.</value>
+  </data>
+  <data name="NotConnected" xml:space="preserve">
+    <value>你需要活跃的互联网连接来同步。 ！</value>
+  </data>
+  <data name="NotNowText" xml:space="preserve">
+    <value>Not Now</value>
+  </data>
+  <data name="Numeric" xml:space="preserve">
+    <value>Value should be numeric</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>是的</value>
+  </data>
+  <data name="OpenCMVProjectText" xml:space="preserve">
+    <value>Open CRM Project</value>
+  </data>
+  <data name="Parameters" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="PlaceHolderProjectName" xml:space="preserve">
+    <value>新项目的名称 ！</value>
+  </data>
+  <data name="Productivity" xml:space="preserve">
+    <value>Productivity</value>
+  </data>
+  <data name="ProductivityChemistry" xml:space="preserve">
+    <value>Productivity Chemistry</value>
+  </data>
+  <data name="ProductivityLabor" xml:space="preserve">
+    <value>Productivity - Labor</value>
+  </data>
+  <data name="ProductivityLocation" xml:space="preserve">
+    <value>Productivity - Location</value>
+  </data>
+  <data name="ProductivityPeople" xml:space="preserve">
+    <value>Productivity People</value>
+  </data>
+  <data name="ProductivityPlant" xml:space="preserve">
+    <value>Productivity Plant</value>
+  </data>
+  <data name="ProductivityProduct" xml:space="preserve">
+    <value>Productivity - Product</value>
+  </data>
+  <data name="Profitability" xml:space="preserve">
+    <value>Increased Production</value>
+  </data>
+  <data name="ProgramAlreadyPushedMessage" xml:space="preserve">
+    <value>The project has already been pushed to CRM. Once you push it again, all current data will be overridden. Would you like to proceed?</value>
+  </data>
+  <data name="Project" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="ProjectHomePage" xml:space="preserve">
+    <value>项目主页 ！</value>
+  </data>
+  <data name="ProjectInfo" xml:space="preserve">
+    <value>项目信息</value>
+  </data>
+  <data name="ProjectInformationText" xml:space="preserve">
+    <value>Project Information</value>
+  </data>
+  <data name="ProjectName" xml:space="preserve">
+    <value>Project Name</value>
+  </data>
+  <data name="ProjectNameCannotBeEmpty" xml:space="preserve">
+    <value>請輸入名稱</value>
+  </data>
+  <data name="ProjectNameExceedsTheMaximumLengthOf_X_Characters" xml:space="preserve">
+    <value>项目名称超过 {0} 个字符的最大长度</value>
+  </data>
+  <data name="ProjectNameShouldBeUniqueWithinTheAccount" xml:space="preserve">
+    <value>项目名称应该是唯一帐户内</value>
+  </data>
+  <data name="ProjectNameText" xml:space="preserve">
+    <value>  Project Name</value>
+  </data>
+  <data name="ProjectNameTextUWP" xml:space="preserve">
+    <value> Type a new project name</value>
+  </data>
+  <data name="ProjectParameters" xml:space="preserve">
+    <value>Project Parameters</value>
+  </data>
+  <data name="ProjectsCount" xml:space="preserve">
+    <value>projects total sorted by</value>
+  </data>
+  <data name="ProjectSearchPlaceholder" xml:space="preserve">
+    <value>搜索项目 ！</value>
+  </data>
+  <data name="ProposedState" xml:space="preserve">
+    <value>拟议的状态 ！</value>
+  </data>
+  <data name="PushedToCmv" xml:space="preserve">
+    <value>Pushed To CRM</value>
+  </data>
+  <data name="PushingToCRM" xml:space="preserve">
+    <value>Pushing to CRM..</value>
+  </data>
+  <data name="PushToCMV" xml:space="preserve">
+    <value>推送至 Cmv</value>
+  </data>
+  <data name="PushToCmvInfo" xml:space="preserve">
+    <value>项目已成功保存！</value>
+  </data>
+  <data name="PushToCmvInfoSubTitle" xml:space="preserve">
+    <value>The project TCO value can be easily pushed into your CRM project.</value>
+  </data>
+  <data name="PushToCmvInfoSubTitleNextLine" xml:space="preserve">
+    <value>The "Push To CRM" feature can be found in the "Save" dropdown menu.</value>
+  </data>
+  <data name="PushToCmvInfoTitle" xml:space="preserve">
+    <value>您知道吗？</value>
+  </data>
+  <data name="PushToCmvText" xml:space="preserve">
+    <value>Push to CRM</value>
+  </data>
+  <data name="Reduced" xml:space="preserve">
+    <value>reduced</value>
+  </data>
+  <data name="ReducedCalIntro" xml:space="preserve">
+    <value>这个总体拥有成本值文档工具的目的是计算减少的腐蚀测算潜在节余。控制腐蚀可以大大降低管更换成本。 ！</value>
+  </data>
+  <data name="ReducedEmissions" xml:space="preserve">
+    <value>reduced emissions</value>
+  </data>
+  <data name="RefreshButton" xml:space="preserve">
+    <value>刷新</value>
+    <comment>Refresh Button</comment>
+  </data>
+  <data name="Reliability" xml:space="preserve">
+    <value>Reliability</value>
+  </data>
+  <data name="ReliabilityCapacity" xml:space="preserve">
+    <value>Capacity - Reliability</value>
+  </data>
+  <data name="RemoveRowAlert" xml:space="preserve">
+    <value>You cannot remove the Row.</value>
+  </data>
+  <data name="ReportDetailsTabName" xml:space="preserve">
+    <value>Report Details</value>
+  </data>
+  <data name="ReportGeneratedMessage" xml:space="preserve">
+    <value>Report generated successfully.</value>
+  </data>
+  <data name="ReportGenerating" xml:space="preserve">
+    <value>Generating Report...</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>必要</value>
+  </data>
+  <data name="RequiredFieldsMissing" xml:space="preserve">
+    <value>必填字段缺失</value>
+  </data>
+  <data name="RequiredFieldsMissingMessage" xml:space="preserve">
+    <value>请填写缺失的必填字段。</value>
+  </data>
+  <data name="RequireFieldsLeft" xml:space="preserve">
+    <value>{0:F0} Required Field(s) Left</value>
+  </data>
+  <data name="RowsLimit" xml:space="preserve">
+    <value>您不能添加超过 8 行。</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SaveAndClose" xml:space="preserve">
+    <value>保存并关闭</value>
+  </data>
+  <data name="SaveAs" xml:space="preserve">
+    <value>另存为</value>
+  </data>
+  <data name="SaveAsNewProject" xml:space="preserve">
+    <value>儲存為新的設定</value>
+  </data>
+  <data name="SaveChangesMessage" xml:space="preserve">
+    <value>你想要你离开页面前保存您的更改吗？</value>
+  </data>
+  <data name="SaveChangesTitle" xml:space="preserve">
+    <value>儲存變更</value>
+  </data>
+  <data name="Saved" xml:space="preserve">
+    <value>saved</value>
+  </data>
+  <data name="SavedSucessfullyText" xml:space="preserve">
+    <value>Saved Sucessfully.</value>
+  </data>
+  <data name="SaveOptionsText" xml:space="preserve">
+    <value>Save Options</value>
+  </data>
+  <data name="SavingText" xml:space="preserve">
+    <value>Saving...</value>
+  </data>
+  <data name="ScanText" xml:space="preserve">
+    <value>Scan for Mobile App</value>
+  </data>
+  <data name="SearchAccount" xml:space="preserve">
+    <value>查找帐户</value>
+  </data>
+  <data name="SearchAssetText" xml:space="preserve">
+    <value>Search Asset</value>
+  </data>
+  <data name="SearchCalculatorText" xml:space="preserve">
+    <value>Search Calculator</value>
+  </data>
+  <data name="SearchCurrency" xml:space="preserve">
+    <value>Search Currency</value>
+  </data>
+  <data name="SearchSiteText" xml:space="preserve">
+    <value>Search Site</value>
+  </data>
+  <data name="SearchValueCategoryText" xml:space="preserve">
+    <value>Search Value Category</value>
+  </data>
+  <data name="SelectAccountText" xml:space="preserve">
+    <value>Select an Account</value>
+  </data>
+  <data name="SelectAsset" xml:space="preserve">
+    <value>选择 [资产] ！</value>
+  </data>
+  <data name="SelectAssetText" xml:space="preserve">
+    <value>Select an Asset</value>
+  </data>
+  <data name="SelectCalculatorTypeText" xml:space="preserve">
+    <value>Select a Calculator Type</value>
+  </data>
+  <data name="SelectSite" xml:space="preserve">
+    <value>Please select the Site</value>
+  </data>
+  <data name="SelectSiteText" xml:space="preserve">
+    <value>Select a Site</value>
+  </data>
+  <data name="SelectText" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="SelectTheAccount" xml:space="preserve">
+    <value>请选择该帐户</value>
+  </data>
+  <data name="SelectTheCalculatorType" xml:space="preserve">
+    <value>请选择计算器类型</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>* Site</value>
+  </data>
+  <data name="SiteAndContextText" xml:space="preserve">
+    <value>Site and Context</value>
+  </data>
+  <data name="SiteText" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="SortByCalculatorType" xml:space="preserve">
+    <value>计算器</value>
+  </data>
+  <data name="SortByProjectName" xml:space="preserve">
+    <value>Project Name</value>
+  </data>
+  <data name="SortByRecentlyViewed" xml:space="preserve">
+    <value>最近浏览</value>
+  </data>
+  <data name="SortByText" xml:space="preserve">
+    <value>Sort by</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="SynchronizingData" xml:space="preserve">
+    <value>同步数据......！</value>
+  </data>
+  <data name="SystemOffline" xml:space="preserve">
+    <value>系统泵离线</value>
+  </data>
+  <data name="SystemOnline" xml:space="preserve">
+    <value>系统在线 ！</value>
+  </data>
+  <data name="ThermalEnergy" xml:space="preserve">
+    <value>Thermal Energy</value>
+  </data>
+  <data name="TitleRequiredFields" xml:space="preserve">
+    <value>Required fields missing</value>
+  </data>
+  <data name="TotalSavingsText" xml:space="preserve">
+    <value>Total Savings:  </value>
+  </data>
+  <data name="TotalValueSaved" xml:space="preserve">
+    <value>Total Value Saved</value>
+  </data>
+  <data name="TryAgain" xml:space="preserve">
+    <value>重试！</value>
+  </data>
+  <data name="txtAccount" xml:space="preserve">
+    <value>帐户</value>
+  </data>
+  <data name="txtAdditionalDescriptionError" xml:space="preserve">
+    <value>Additional Description can not be more than 2000 characters.</value>
+  </data>
+  <data name="txtProjectName" xml:space="preserve">
+    <value>项目名称</value>
+  </data>
+  <data name="txtRequiredFields" xml:space="preserve">
+    <value>Please fill all the required details</value>
+  </data>
+  <data name="txtSearchSite" xml:space="preserve">
+    <value>Search Site</value>
+  </data>
+  <data name="txtSite" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="txt_Retry_GetUser" xml:space="preserve">
+    <value>Failed to get User details. Retry count:-</value>
+  </data>
+  <data name="UnsavedData" xml:space="preserve">
+    <value>应用程序中存在未保存的数据</value>
+  </data>
+  <data name="UpdatedTime" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="UploadButton" xml:space="preserve">
+    <value>上傳</value>
+  </data>
+  <data name="ValueCategoryText" xml:space="preserve">
+    <value>Value Category</value>
+  </data>
+  <data name="VerifyInputs" xml:space="preserve">
+    <value>请验证您输入的内容 ！</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="Waste" xml:space="preserve">
+    <value>Waste</value>
+  </data>
+  <data name="WasteSolid" xml:space="preserve">
+    <value>Waste Solid</value>
+  </data>
+  <data name="Water" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="WaterTabName" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="WordCount" xml:space="preserve">
+    <value>Word Count should be less or equal to </value>
+  </data>
+  <data name="YesButton" xml:space="preserve">
+    <value>是的！</value>
+  </data>
+</root>
